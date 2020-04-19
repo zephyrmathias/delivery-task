@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="delivery-cost__container"
+>
+  <Title
+    title="Delivery Cost"
+  />
+  <Subtitle
+    subtitle="Calculate delivery cost for given delivery route"
+  />
+  <Note>
+    *Note: Example input is A-B-C-D
+  </Note>
+  <input
+    className="delivery-cost__input"
+    name="routes"
+    onChange={[Function]}
+    placeholder="Delivery Routes"
+    type="text"
+  />
+  <Button
+    onClick={[Function]}
+    text="Calculate Delivery Cost"
+  />
+</div>
+`;

@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="delivery-data__container"
+>
+  <Title
+    title="Add Delivery Route"
+  />
+  <Subtitle
+    subtitle="Add Delivery Data"
+  />
+  <Note>
+    *Note: Example data: 
+    <b>
+      A, B, 10
+    </b>
+     please note
+    <b>
+       Town name is case sensitive
+    </b>
+     and 
+    <b>
+      Cost cannot be 0
+    </b>
+    <div>
+      <u>
+        <b>
+          And Delivery Routes cannot be duplicated
+        </b>
+      </u>
+      <div>
+        Ex: if A-B-10 exist, cannot add another A-B with any cost
+      </div>
+    </div>
+  </Note>
+  <input
+    className="delivery-data__input"
+    name="data-town1"
+    onChange={[MockFunction]}
+    placeholder="Town 1"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    name="data-town2"
+    onChange={[MockFunction]}
+    placeholder="Town 2"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    min={1}
+    name="data-cost"
+    onChange={[MockFunction]}
+    placeholder="Cost"
+    type="number"
+    value=""
+  />
+  <Button
+    onClick={[MockFunction]}
+    text="Add New Data"
+  />
+</div>
+`;
+
+exports[`should show a list of routes when it contains the data 1`] = `
+<div
+  className="delivery-data__container"
+>
+  <Title
+    title="Add Delivery Route"
+  />
+  <Subtitle
+    subtitle="Add Delivery Data"
+  />
+  <Note>
+    *Note: Example data: 
+    <b>
+      A, B, 10
+    </b>
+     please note
+    <b>
+       Town name is case sensitive
+    </b>
+     and 
+    <b>
+      Cost cannot be 0
+    </b>
+    <div>
+      <u>
+        <b>
+          And Delivery Routes cannot be duplicated
+        </b>
+      </u>
+      <div>
+        Ex: if A-B-10 exist, cannot add another A-B with any cost
+      </div>
+    </div>
+  </Note>
+  <input
+    className="delivery-data__input"
+    name="data-town1"
+    onChange={[MockFunction]}
+    placeholder="Town 1"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    name="data-town2"
+    onChange={[MockFunction]}
+    placeholder="Town 2"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    min={1}
+    name="data-cost"
+    onChange={[MockFunction]}
+    placeholder="Cost"
+    type="number"
+    value=""
+  />
+  <Button
+    onClick={[MockFunction]}
+    text="Add New Data"
+  />
+  <Result>
+    <div
+      key="A-B"
+    >
+      A
+      -
+      B
+      -
+      2
+    </div>
+  </Result>
+</div>
+`;
+
+exports[`should show an error message when it contains an error 1`] = `
+<div
+  className="delivery-data__container"
+>
+  <Title
+    title="Add Delivery Route"
+  />
+  <Subtitle
+    subtitle="Add Delivery Data"
+  />
+  <Note>
+    *Note: Example data: 
+    <b>
+      A, B, 10
+    </b>
+     please note
+    <b>
+       Town name is case sensitive
+    </b>
+     and 
+    <b>
+      Cost cannot be 0
+    </b>
+    <div>
+      <u>
+        <b>
+          And Delivery Routes cannot be duplicated
+        </b>
+      </u>
+      <div>
+        Ex: if A-B-10 exist, cannot add another A-B with any cost
+      </div>
+    </div>
+  </Note>
+  <input
+    className="delivery-data__input"
+    name="data-town1"
+    onChange={[MockFunction]}
+    placeholder="Town 1"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    name="data-town2"
+    onChange={[MockFunction]}
+    placeholder="Town 2"
+    type="text"
+    value=""
+  />
+  <input
+    className="delivery-data__input"
+    min={1}
+    name="data-cost"
+    onChange={[MockFunction]}
+    placeholder="Cost"
+    type="number"
+    value=""
+  />
+  <Button
+    onClick={[MockFunction]}
+    text="Add New Data"
+  />
+  <Error>
+    ERROR: 
+    error
+  </Error>
+</div>
+`;

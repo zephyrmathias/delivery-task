@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot when there are no result and error 1`] = `
+<div
+  className="all-routes__container"
+>
+  <Title
+    title="Find Possible Routes By Cost"
+  />
+  <Subtitle
+    subtitle="The number of possible routes from Town A to Town B that delivery cost is only less than N"
+  />
+  <Note>
+    <span>
+      *Note: Example of Inputs 
+      <b>
+        E, E, 20
+      </b>
+       and Town names are case sensitive
+    </span>
+  </Note>
+  <input
+    className="all-routes__input"
+    name="town1"
+    onChange={[Function]}
+    placeholder="Town 1"
+    type="text"
+  />
+  <input
+    className="all-routes__input"
+    name="town2"
+    onChange={[Function]}
+    placeholder="Town 2"
+    type="text"
+  />
+  <input
+    className="all-routes__input"
+    min={1}
+    name="cost"
+    onChange={[Function]}
+    placeholder="Cost"
+    type="number"
+  />
+  <Button
+    onClick={[Function]}
+    text="Find All Possible Routes"
+  />
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot when there are no result and error 1`] = `
+<div
+  className="all-possible-routes__container"
+>
+  <Title
+    title="Find All Routes Between Town 1 and Town 2"
+  />
+  <Subtitle
+    subtitle="Find all possible routes"
+  />
+  <input
+    className="all-possible-routes__input"
+    name="town1"
+    onChange={[Function]}
+    placeholder="Town 1"
+    type="text"
+  />
+  <input
+    className="all-possible-routes__input"
+    name="town2"
+    onChange={[Function]}
+    placeholder="Town 2"
+    type="text"
+  />
+  <Button
+    onClick={[Function]}
+    text="Find All Routes"
+  />
+</div>
+`;
